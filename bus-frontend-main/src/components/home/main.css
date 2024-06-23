@@ -1,0 +1,38 @@
+* {
+    font-size: 24px;
+}
+
+svg>* {
+    color: #fff;
+}
+
+.css-10o2lyd-MuiStack-root {
+    padding: 0 !important;
+}
+
+.starsCont * {
+    color: #FFD700;
+    width: 16px;
+    height: 16px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.scroll-container {
+    display: flex;
+    gap: 8px;
+    animation: scroll 30s linear infinite;
+}
+
+.MuiPickersCalendarHeader-root svg{
+    background-color: #353535;
+    border-radius: 100%;
+}

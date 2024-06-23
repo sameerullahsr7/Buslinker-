@@ -1,0 +1,15 @@
+.MuiDrawer-paperAnchorDockedLeft {
+    background-color: #0a101d !important;
+}
+
+.MuiListItemButton-root{
+    padding: 1em!important;
+}
+
+.MuiListItemButton-root span {
+    color: #fff !important;
+}
+
+.activeAdmin{
+    background-color: #29ABE2;
+}

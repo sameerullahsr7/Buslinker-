@@ -1,0 +1,31 @@
+.popupcontainer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+    background-color: rgba(100, 100, 100, 0.311);
+}
+
+.date-route svg {
+    background-color: #353535;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.modalCont {
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000075;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

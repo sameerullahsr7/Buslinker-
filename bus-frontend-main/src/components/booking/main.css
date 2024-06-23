@@ -1,0 +1,14 @@
+.steps-header>svg {
+    color: #4DD836 !important;
+}
+
+.seatsContStep3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px; /* General gap between all grid items */
+    position: relative;
+}
+
+.seatsContStep3 > div:nth-child(6n+4) {
+    margin-left: 50px; /* Extra space before the fourth column in each row */
+}
