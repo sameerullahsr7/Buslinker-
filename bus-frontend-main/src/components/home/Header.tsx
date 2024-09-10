@@ -23,7 +23,7 @@ const Header = ({ onAboutClick, onReviewsClick, onFAQsClick }: any) => {
         dispatch(toggleLanguage(isSelectedUrdu));
 
         // Update local state for rendering
-        setLang(isSelectedUrdu ? "اردو" : "en");
+        setLang(isSelectedUrdu ? "اردو" : "Eng");
 
     }, [isSelectedUrdu]); // Only run effect when isSelectedUrdu changes
 
