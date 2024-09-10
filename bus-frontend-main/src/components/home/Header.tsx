@@ -40,7 +40,7 @@ const Header = ({ onAboutClick, onReviewsClick, onFAQsClick }: any) => {
                     value={lang}
                     disablePortal
                     id="combo-box-demo"
-                    options={["en", "اردو"]}
+                    options={["Eng", "اردو"]}
                     fullWidth
                     onChange={(e: any) => {
                         setIsSelectedUrdu(e.target.textContent === "اردو");
