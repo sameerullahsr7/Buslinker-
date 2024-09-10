@@ -16,7 +16,7 @@ const Header = ({ onAboutClick, onReviewsClick, onFAQsClick }: any) => {
     const isSelectedEnglish = !(currentUser?.isSelectedUrdu);
 
     const [isSelectedUrdu, setIsSelectedUrdu] = useState<boolean>(currentUser?.isSelectedUrdu || false);
-    const [lang, setLang] = useState<string>(isSelectedEnglish ? "en" : "اردو");
+    const [lang, setLang] = useState<string>(isSelectedEnglish ? "eng" : "اردو");
 
     useEffect(() => {
         // Update Redux store with selected language
